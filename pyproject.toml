@@ -1,0 +1,19 @@
+[build-system]
+requires = [
+    "setuptools>=40.8.0",
+    "wheel"
+]
+
+[project]
+name = "openthaigpt_data_test"
+version = "0.1.0"
+description = "OpenThaiGPT data engineer exam."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "datasets",
+]
